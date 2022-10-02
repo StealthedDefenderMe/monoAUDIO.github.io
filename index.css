@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.max{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: 47.1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+}
+
+.info{
+    margin: auto;
+}
+
+#note{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5cm;
+    text-decoration: underline;
+}
+
+#para1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+#para2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+
+@media(max-width : 450px) {
+   .max{
+    height: 52rem;
+   }
+
+   .container{
+    width: 22rem;
+   }
+}
